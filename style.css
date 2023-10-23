@@ -31,7 +31,7 @@
 
 input {
     color: rgb(255, 255, 255);
-    font-size: 1em;
+    font-size: 1.3em;
     cursor: pointer;
     width: 70px;
     height: 50px;
@@ -80,8 +80,8 @@ input[type="text"] {
 input[type="button"] {
     background-color: rgb(232, 232, 232);
     color: rgb(20, 22, 54);
-    border-bottom: 3px solid rgb(187, 187, 187);
-    border-right: 2px solid rgb(187, 187, 187);
+    border-bottom: 2px solid rgb(187, 187, 187);
+    border-right: 1px solid rgb(187, 187, 187);
 }
 
 input[type="button"]:hover {
@@ -91,8 +91,8 @@ input[type="button"]:hover {
 #delete, #reset{
     color: #fff;
     background-color: rgb(108, 179, 255);
-    border-bottom: 3px solid rgb(73, 161, 255);
-    border-right: 2px solid rgb(73, 161, 255);
+    border-bottom: 2px solid rgb(73, 161, 255);
+    border-right: 1px solid rgb(73, 161, 255);
 }
 #delete:hover, #reset:hover{
     color: #fff;
@@ -102,8 +102,8 @@ input[type="button"]:hover {
 #equal-button {
     color: #fff;
     background-color: rgb(234, 109, 87);
-    border-bottom: 3px solid rgb(216, 92, 70);
-    border-right: 2px solid rgb(216, 92, 70);
+    border-bottom: 2px solid rgb(216, 92, 70);
+    border-right: 1px solid rgb(216, 92, 70);
 }
 #equal-button:hover {
     color: #fff;
