@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="assets/calculator.ico">
+  <link rel="stylesheet" href="style.css" id="theme" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Calculator App</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="first-row">
+        <input type="text" name="result" id="result" placeholder="0" readonly />
+      </div>
+      <div class="buttons">
+        <div class="second-row">
+          <input type="button" value="7" onclick="addElement(7)" />
+          <input type="button" value="8" onclick="addElement(8)" />
+          <input type="button" value="9" onclick="addElement(9)" />
+          <input type="button" class="blue-button" id="delete" value="DEL" onclick="deleteLastElement()" />
+        </div>
+        <div class="third-row">
+          <input type="button" value="4" onclick=" addElement(4)" />
+          <input type="button" value="5" onclick=" addElement(5)" />
+          <input type="button" value="6" onclick=" addElement(6)" />
+          <input type="button" value="+" onclick="addElement('+')" />
+        </div>
+        <div class="fourth-row">
+          <input type="button" value="1" onclick="addElement(1)" />
+          <input type="button" value="2" onclick="addElement(2)" />
+          <input type="button" value="3" onclick=" addElement(3)" />
+          <input type="button" value="-" onclick="addElement('-')" />
+        </div>
+        <div class="fifth-row">
+          <input type="button" value="." onclick="addElement('.')" />
+          <input type="button" value="0" onclick="addElement(0)" />
+          <input type="button" value="÷" onclick="addElement('/')" />
+          <input type="button" value="x" onclick="addElement('*')" />
+        </div>
+        <div class="sixth-row">
+          <input type="button" value="RESET" onclick="result.value=''" id="reset"/>
+          <input type="button" value="=" id="equal-button" onclick="calculate(result.value)" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+<footer><p>&copy; 2023 - Made by Mathys Dezitter</p></footer>
+</html>
