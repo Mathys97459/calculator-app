@@ -1,5 +1,4 @@
 const result = document.getElementById("result");
-var lastElement;
 
 function calculate(value) {
   const calculatedValue = eval(value || null);
@@ -13,5 +12,4 @@ function deleteLastElement(){
 // Displays entered value on screen.
 function addElement(element) {
   result.value += element;
-  lastElement = element;
 }
